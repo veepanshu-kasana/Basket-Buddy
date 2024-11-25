@@ -3,7 +3,7 @@ import "./Spinner.css"
 
 export const Spinner = () => {
   return (
-    <div>
+    <div className='h-screen flex justify-center items-center'>
         <div className='spinner'></div>
     </div>
   )
