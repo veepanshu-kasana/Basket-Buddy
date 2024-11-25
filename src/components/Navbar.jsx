@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className='flex flex-row justify-between'>
             <NavLink to="/">
                 <div>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZK9xTikP53xzxBMHEnoTqN40KxVntgW0Gg&s' height={20} width={100}/>
+                    <img src="../logo.png" className='h-14'/>
                 </div>
             </NavLink>
 
