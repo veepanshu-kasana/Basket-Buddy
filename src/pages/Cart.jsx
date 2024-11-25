@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export const Cart = () => {
 
-  const {cart = []} = useSelector((state) => state);
+  const {cart} = useSelector((state) => state);
   const [totalAmount, setTotalAmount] = useState(0);
 
   useEffect( () => {
