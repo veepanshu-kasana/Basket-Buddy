@@ -16,7 +16,7 @@ export const Navbar = () => {
                 </div>
             </NavLink>
 
-            <div className='flex items-center font-medium text-slate-100 mr-5 space-x-6 -tracking-tighter'>
+            <div className='flex items-center font-medium text-blue-950 mr-5 space-x-6 -tracking-tighter'>
                 <NavLink to="/">
                     <p>Home</p>
                 </NavLink>
@@ -26,7 +26,7 @@ export const Navbar = () => {
                         <FaShoppingCart className='text-2xl'/>
                         {
                             cart.length > 0 &&
-                            <span className='absolute -top-1 -right-2 bg-green-600 text-xs w-5 h-5 flex justify-center 
+                            <span className='absolute -top-1 -right-2 bg-orange-600 text-xs w-5 h-5 flex justify-center 
                             items-center animate-bounce rounded-full text-white'>{cart.length}</span>
                         }
                     </div>
