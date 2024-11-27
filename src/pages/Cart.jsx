@@ -43,7 +43,7 @@ export const Cart = () => {
 
             </div>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col pl-5'>
 
               <p className='text-xl font-bold'>
                 <span className='text-gray-700 font-semibold'>Total Amount:</span>{" "}
