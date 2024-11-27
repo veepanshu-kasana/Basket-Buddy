@@ -16,7 +16,7 @@ export const Navbar = () => {
                 </div>
             </NavLink>
 
-            <div className='flex items-center font-medium text-slate-100 mr-5 space-x-6'>
+            <div className='flex items-center font-medium text-slate-100 mr-5 space-x-6 -tracking-tighter'>
                 <NavLink to="/">
                     <p>Home</p>
                 </NavLink>
